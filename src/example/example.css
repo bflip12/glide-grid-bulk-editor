@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; color: #1c1917; background: #fafaf9; }
+button { font: inherit; padding: 5px 12px; border: 1px solid #d6d3d1; border-radius: 4px; background: #fff; cursor: pointer; }
+button:disabled { opacity: 0.5; cursor: default; }
+input { font: inherit; padding: 5px 8px; border: 1px solid #d6d3d1; border-radius: 4px; }
+
+.example { max-width: 1100px; margin: 0 auto; padding: 32px 20px; }
+.example__lead { color: #57534e; max-width: 70ch; }
+.example__muted { color: #78716c; }
+.example__panel { margin-top: 24px; }
+.example__panel pre { background: #f5f5f4; padding: 12px; border-radius: 4px; max-height: 320px; overflow: auto; font-size: 12px; }
+
+.modal__backdrop { position: fixed; inset: 0; background: rgb(0 0 0 / 0.35); display: flex; align-items: flex-start; justify-content: center; padding: 24px; z-index: 10; }
+.modal { position: relative; width: min(1100px, 100%); background: #fff; border-radius: 6px; padding: 16px 20px 20px; outline: none; }
+.modal__header { display: flex; justify-content: space-between; align-items: center; }
+.modal__header h2 { margin: 0; font-size: 18px; }
+.modal__confirm { position: absolute; inset: auto 20px 20px auto; background: #fff; border: 1px solid #d6d3d1; border-radius: 6px; padding: 14px 16px; box-shadow: 0 6px 24px rgb(0 0 0 / 0.15); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; max-width: 420px; }
+.modal__confirm p { margin: 0 0 6px; width: 100%; }
+
+.grid-editor__toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin: 12px 0; }
+.grid-editor__add-column { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.grid-editor__label { font-weight: 600; font-size: 14px; }
+.grid-editor__actions { display: flex; gap: 8px; }
+.grid-editor__footer { display: flex; gap: 16px; margin-top: 8px; font-size: 14px; color: #57534e; }
+.grid-editor__error { color: #b91c1c; }
+.grid-editor__notice { color: #1d4ed8; }
+.grid-editor__danger { color: #b91c1c; }
+.grid-editor__menu { position: fixed; z-index: 20; display: flex; flex-direction: column; background: #fff; border: 1px solid #d6d3d1; border-radius: 6px; box-shadow: 0 6px 24px rgb(0 0 0 / 0.12); padding: 4px; }
+.grid-editor__menu button { border: 0; text-align: left; }
+.grid-editor__menu button[aria-checked="true"] { font-weight: 700; }

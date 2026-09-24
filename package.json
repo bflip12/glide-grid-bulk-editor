@@ -1,0 +1,36 @@
+{
+  "name": "glide-grid-bulk-editor",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An editable Glide Data Grid that tracks changes by row ID and saves them in one request.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@glideapps/glide-data-grid": "6.0.3",
+    "lodash": "^4.17.21",
+    "marked": "^4.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-responsive-carousel": "^3.2.23"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "^29.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
+  }
+}
