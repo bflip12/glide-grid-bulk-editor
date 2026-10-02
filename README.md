@@ -5,7 +5,9 @@ change by row ID, handles paste itself, and saves everything in one request.
 
 ![The editor with five changed cells highlighted and the Site column frozen](docs/screenshot.png)
 
-**Live example:** https://bflip12.github.io/glide-grid-bulk-editor/
+**Live example:** https://bflip12.github.io/glide-grid-bulk-editor/  
+**Write-up:** [How to Build an Editable Spreadsheet with Glide Data Grid](TODO-article-url)  
+**Guided demo:** [Glide Data Grid Bulk Editor](TODO-demo-url)
 
 ## The problem
 
